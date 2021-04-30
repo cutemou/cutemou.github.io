@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/* index */
+
+.wrap{
+    width: 1002px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.link{
+    display: flex;
+    background-color: #e4d4d4;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.link a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.fb{
+    
+    padding: 5px;
+}
+
+
+.bar{
+    color:#cccccc;
+    height: 12px;
+    margin-top: 6px;
+}
+
+.github{
+    
+    padding: 5px;
+}
+
+.github a{
+    color: black;
+}
+
+.github img{
+    width: 16px;
+    height: 16px;
+}
+
+.fb  img{
+    margin-right: 2px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;  
+    font-size: 20px;
+    background-color: rgb(209, 218, 196);
+    border-top: 1px #ad9a9a solid;
+    border-bottom: 1px #ad9a9a solid;
+}
+.header ul{
+    display: flex;
+}
+
+.header  li a{
+    padding: 20px;
+    color: rgb(151, 18, 18);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header  li  :hover{
+    margin-bottom: -2px;
+    border-bottom: 2px solid rgb(151, 18, 18);
+}
+
+
+
+
+.banner {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 219, 209);
+    
+    
+}
+.banner img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.banner h1{
+    font-size: 32px;
+}
+
+.banner h2{
+    font-size: 24px;
+}
+
+.banner p{
+    margin: 10px 10px 20px 10px;
+}
+
+.banner img, .banner h1 ,.banner h2{
+    padding: 5px;
+}
+
+.intro{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1002px;
+    background-color: rgb(225, 235, 225);
+}
+
+
+.intro h2{
+    font-size: 32px;
+}
+
+.intro p{
+    width: 800px;
+    line-height: 20px;
+
+}
+
+.intro h2 {
+    margin: 20px;
+}
+
+.intro p{
+    margin: 20px 0 40px 0;
+}
+
+.abilities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(233, 235, 233);
+}
+
+
+
+.abilities h2{
+    font-size: 32px;
+    align-self: flex-start;
+    margin:40px 0px 20px 25px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.items div{
+    width: 300px;
+    border-top: 2px #ad9a9a solid;
+    margin: 10px;
+}
+
+.items h3{
+    font-size: 24px;
+    margin: 30px 0 30px 0;
+}
+
+.items li{
+    margin: 15px 0 15px 0;
+}
+
+.portfolio{
+    background-color: rgb(244, 248, 244);
+}
+
+.portfolio h2{
+    font-size: 32px;
+    margin:0px 0px 20px 25px;
+    padding-top: 40px;
+    
+}
+
+.works{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.portfolio .works h2{
+    font-size: 24px;
+    margin:10px 0 10px 0;
+}
+
+
+.works .connection{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works li{
+    margin:0px 0 10px 0;
+
+}
+
+.connection2{
+    margin-bottom: 20px;
+}
+
+.connection2 img{
+    width: 300px;
+}
+
+.footer{
+    background-color: #e4d4d4;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.footer img,.footer p{
+    margin: 20px;
+}
+
+
+.footer p {
+    line-height: 24px;
+    
+}
+
+
